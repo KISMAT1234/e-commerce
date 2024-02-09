@@ -5,12 +5,12 @@ import { setSearch } from "../redux/slices/SearchSlice";
 const Navbar = () => {
   const dispatch = useDispatch();
   return (
-    <nav className="flex flex-col lg:flex-row justify-between py-3 mx-6 mb-10">
+    <nav className="flex flex-col lg:flex-row justify-between py-3 mx-6 mb-10 border-red-600 border-y-4 ">
       <div>
         <h3 className="text-xl font-bold text-gray-600">
           {new Date().toUTCString().slice(0, 16)}
         </h3>
-        <h1 className="text-2xl font-bold ">Flavoro Foods</h1>
+        <h1 className="text-2xl font-bold ">Kismat Foods</h1>
       </div>
       <div>
         <input
