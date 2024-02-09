@@ -3,10 +3,12 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa6";
 import { FaSnapchatSquare } from "react-icons/fa";
+import kismatlogo from "../assets/kismatlogo.png"
+
 function Footer(){
     return(
         <>
-         <footer className="bg-gray-400 w-[100%]  px-5 py-5">
+         <footer className="bg-gray-400 w-[100%]  px-10 py-10">
             <div className="">
                 <div className="sm:flex">
 
@@ -42,18 +44,29 @@ function Footer(){
                     </div>
 
                     <div className="">
-                    <h1 className="font-bold text-xl">FOLLLOW US</h1>
-                    <div className="flex justify-between">
-                        <FaFacebook/>
-                        <FaInstagram />
-                        <FaTwitterSquare />
-                        <FaTiktok />
-                        <FaSnapchatSquare />
+                        <h1 className="font-bold text-xl">FOLLLOW US</h1>
+                        <div className="flex justify-between">
+                            <FaFacebook/>
+                            <FaInstagram />
+                            <FaTwitterSquare />
+                            <FaTiktok />
+                            <FaSnapchatSquare />
+                        </div>
                     </div>
-                        <h5></h5>
+                </div>
+                <div>
+                    <div className="my-10">
+                       <img src={kismatlogo} className=" lg:w-[10%]"/>
                     </div>
+                    <div className="">
+                            
+                    </div>
+                    <div className="">
 
-                    
+                    </div>
+                </div>
+                <div className="mt-5 border-t-4  border-green-500">
+                    <h1 className="text-center text-2xl mt-8 text-black">All Rights Reserved. Copyright © Kismat FoodWorks Ltd.</h1>
                 </div>
             </div>
          </footer>
