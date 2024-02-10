@@ -4,12 +4,14 @@ import Home from "./pages/Home";
 import Success from "./pages/Success";
 import Error from "./pages/Error";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact/>}/>
         <Route
           path="/success"
           element={<ProtectedRoute element={<Success />} />}
