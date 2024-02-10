@@ -59,10 +59,12 @@ function Footer(){
                        <img src={kismatlogo} className=" lg:w-[10%]"/>
                     </div>
                     <div className="">
-                            
+                        
                     </div>
                     <div className="">
 
+                    </div>
+                    <div className="">
                     </div>
                 </div>
                 <div className="mt-5 border-t-4  border-green-500">

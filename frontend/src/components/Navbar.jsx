@@ -7,17 +7,13 @@ import {Link} from "react-router-dom"
 const Navbar = () => {
   const dispatch = useDispatch();
   return (
-    <nav className="flex flex-col lg:flex-row justify-between py-3 mx-6 mb-10 ">
+    <nav className="bg-slate-400 flex flex-col lg:flex-row justify-between py-3 mx-6 mb-10">
       <div className="w-[15%]">
-        {/* <h3 className="text-xl font-bold text-gray-600">
-          {new Date().toUTCString().slice(0, 16)}
-        </h3>
-        <h1 className="text-2xl font-bold ">Kismat Foods</h1> */}
         <img src={kismatlogo} className=" lg:w-[40%]"/>
       </div>
       <div>
         <h1 className="text-2xl md:text-3xl font-bold md:mt-1">Burgers! Because no great story started with salad </h1>
-        <div className="my-5 text-2xl text-violet-800 justify-between">
+        <div className="my-2 text-2xl text-violet-800 justify-between">
           <Link to ="/"       className="hover:border-b-2 border-green-600 hover:text-slate-400 ">Home</Link>
           <Link to="/contact" className="hover:border-b-2 border-green-600 hover:text-slate-400 ml-4">Contact</Link>
         </div>
