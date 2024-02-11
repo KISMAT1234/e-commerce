@@ -3,6 +3,9 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa6";
 import { FaSnapchatSquare } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
 import kismatlogo from "../assets/kismatlogo.png"
 
 function Footer(){
@@ -54,17 +57,24 @@ function Footer(){
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div className="my-10">
-                       <img src={kismatlogo} className=" lg:w-[10%]"/>
+                <div className="sm:flex sm:flex-wrap pt-10 justify-between">
+                    <div className="">
+                       <img src={kismatlogo} className=" lg:w-[70%]"/>
                     </div>
                     <div className="">
-                        
+                        <FaPhoneAlt className="ml-10 text-4xl mt-5"/>
+                        <h1 className="md:text-2xl">Call Us At</h1>
+                       <h1 className="md:text-2xl"> +977 1234567890 </h1>
                     </div>
                     <div className="">
-
+                       <MdEmail className="ml-10 text-4xl mt-5"/>
+                       <h1 className="md:text-2xl">Email Us At</h1>
+                       <h1 className="md:text-2xl">foodvalley@gmail.com</h1>
                     </div>
                     <div className="">
+                       <FaLocationDot className="ml-10 text-4xl mt-5"/>
+                       <h1 className="md:text-2xl">Find Us At</h1>
+                       <h1 className="md:text-2xl">kathmandu, nepal</h1>
                     </div>
                 </div>
                 <div className="mt-5 border-t-4  border-green-500">

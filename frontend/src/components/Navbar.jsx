@@ -7,7 +7,7 @@ import {Link} from "react-router-dom"
 const Navbar = () => {
   const dispatch = useDispatch();
   return (
-    <nav className="bg-slate-400 flex flex-col lg:flex-row justify-between py-3 mx-6 mb-10">
+    <nav className="flex flex-col lg:flex-row justify-between py-3 mx-6 mb-10">
       <div className="w-[15%]">
         <img src={kismatlogo} className=" lg:w-[40%]"/>
       </div>
