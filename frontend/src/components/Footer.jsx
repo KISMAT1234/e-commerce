@@ -8,6 +8,10 @@ import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import kismatlogo from "../assets/kismatlogo.png"
 
+
+
+
+
 function Footer(){
     return(
         <>
