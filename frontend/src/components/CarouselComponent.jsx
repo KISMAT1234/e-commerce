@@ -1,11 +1,11 @@
-export default function Carousel({slides}){
+// export default function Carousel({slides}){
 
 
-return(
-   <>
-     <Carousel slides={slides}/>
+// return(
+//    <>
+//      <Carousel slides={slides}/>
 
-   </>
-)
+//    </>
+// )
 
-}
+// }
