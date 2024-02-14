@@ -7,7 +7,7 @@ import {Link} from "react-router-dom"
 const Navbar = () => {
   const dispatch = useDispatch();
   return (
-    <nav className="flex flex-col lg:flex-row justify-between py-3 mx-6 mb-10">
+    <nav className="flex flex-col lg:flex-row justify-between py-3 mx-6 ">
       <div className="w-[15%]">
         <img src={kismatlogo} className=" lg:w-[40%]"/>
       </div>
@@ -16,6 +16,7 @@ const Navbar = () => {
         <div className="my-2 text-2xl text-violet-800 justify-between">
           <Link to ="/"       className="hover:border-b-2 border-green-600 hover:text-slate-400 ">Home</Link>
           <Link to="/contact" className="hover:border-b-2 border-green-600 hover:text-slate-400 ml-4">Contact</Link>
+          <Link to="/about" className="hover:border-b-2 border-green-600 hover:text-slate-400 ml-4">About</Link>
         </div>
       </div>
       <div>

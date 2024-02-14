@@ -52,8 +52,8 @@ let nextSlide = ()=>{
   return (
    
     <div className="mx-6">
-      <div className="overflow-hidden w-[65%] ml-[20%] mb-10 relative">
-        <div className={`flex transition ease-out duration-40 `} 
+      <div className="overflow-hidden w-[65%] ml-[20%] mb-10 h-[50vh] relative">
+        <div className={`flex transition ease-out duration-1000 `} 
         style={{
           transform: `translateX(-${current * 100}%)`}}>
           {slides.map((s)=>{

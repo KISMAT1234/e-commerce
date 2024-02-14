@@ -5,6 +5,7 @@ import Success from "./pages/Success";
 import Error from "./pages/Error";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Contact from "./pages/Contact";
+import About from "./pages/About";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/about" element={<About/>}/>
         <Route
           path="/success"
           element={<ProtectedRoute element={<Success />} />}
