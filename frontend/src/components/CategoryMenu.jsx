@@ -3,10 +3,12 @@ import FoodData from "../data/FoodData";
 import { useDispatch, useSelector } from "react-redux";
 import { setCategory } from "../redux/slices/CategorySlice";
 // import Carousel from "./CarouselComponent";
+import leftImage from "../assets/left.jpg";
 import Chicken from "../assets/chicken.jpg";
 import Menu from "../assets/menu.jpg";
 import Pizza from "../assets/pizza.jpg";
 import Restaurant from "../assets/restaurant.jpg";
+import rightImage from "../assets/right.jpg";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { FaArrowCircleLeft } from "react-icons/fa";
 
@@ -52,20 +54,28 @@ let nextSlide = ()=>{
   return (
    
     <div className="mx-6">
-      <div className="overflow-hidden w-[65%] ml-[20%] mb-10 h-[50vh] relative">
-        <div className={`flex transition ease-out duration-1000 `} 
-        style={{
-          transform: `translateX(-${current * 100}%)`}}>
-          {slides.map((s)=>{
-              return <img src={s}/>;
-          })}
-         </div>
-         <div className="absolute top-0 h-full w-full justify-between flex px-2">
-             <button onClick={previousSlide} className="text-4xl text-green-600"> <FaArrowCircleLeft /></button>
-             <button onClick={nextSlide} className="text-4xl text-green-600"><FaArrowCircleRight /></button>
-         </div>
+      <div className="md:flex md:justify-between">
+        <div className="md:w-[20%] md:mt-[10%]">
+               <img src={leftImage}/>
         </div>
-      <h3 className="text-xl font-semibold">Find the best food</h3>
+        <div className="overflow-hidden md:w-[55%]   md:mx-10  sm:mb-10  relative">
+          <div className={`flex transition ease-out duration-1000 `} 
+            style={{
+            transform: `translateX(-${current * 100}%)`}}>
+            {slides.map((food)=>{
+                return <img src={food}/>;
+            })}
+          </div>
+          <div className="absolute top-0 h-full w-full justify-between flex px-2">
+               <button onClick={previousSlide} className="text-4xl text-green-600"> <FaArrowCircleLeft /></button>
+               <button onClick={nextSlide} className="text-4xl text-green-600"><FaArrowCircleRight /></button>
+          </div>
+        </div>
+        <div className="md:w-[20%] md:mt-[10%]">
+          <img src={rightImage}/>
+        </div>
+      </div>
+      <h3 className="text-xl font-semibold ">Find the best food</h3>
       <div className="my-5 flex gap-3 overflow-x-scroll scroll-smooth lg:overflow-x-hidden">
         <button
           onClick={() => dispatch(setCategory("All"))}
