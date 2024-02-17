@@ -6,6 +6,7 @@ import Error from "./pages/Error";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Login from "./pages/Login";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/login" element={<Login/>}/>
         <Route
           path="/success"
           element={<ProtectedRoute element={<Success />} />}

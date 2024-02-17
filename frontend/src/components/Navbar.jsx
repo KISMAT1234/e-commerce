@@ -30,7 +30,9 @@ const Navbar = () => {
           className="p-3 border border-gray-400 text-sm rounded-lg outline-none w-full lg:w-[25vw] h-[6vh]"
         /><br></br>
         <div className="mt-2">
-        <button className="bg-green-600 rounded h-[6vh] w-[25%] md:ml-30 text-2xl font-bold">Login</button>
+          <Link to ="/login">
+              <button className="bg-green-600 rounded h-[6vh] w-[25%] md:ml-30 text-2xl font-bold">Login</button>
+          </Link> 
         <button className="bg-green-600 rounded h-[6vh] w-[25%] ml-10 text-2xl font-bold">Signup</button>
         </div>
       </div>
