@@ -33,7 +33,9 @@ const Navbar = () => {
           <Link to ="/login">
               <button className="bg-green-600 rounded h-[6vh] w-[25%] md:ml-30 text-2xl font-bold">Login</button>
           </Link> 
-        <button className="bg-green-600 rounded h-[6vh] w-[25%] ml-10 text-2xl font-bold">Signup</button>
+          <Link to="/signup">
+            <button className="bg-green-600 rounded h-[6vh] w-[25%] ml-10 text-2xl font-bold">Signup</button>
+          </Link>
         </div>
       </div>
     </nav>

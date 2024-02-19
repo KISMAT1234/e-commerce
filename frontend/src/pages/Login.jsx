@@ -39,7 +39,7 @@ function Login() {
                </label><br></br>
                <input type="password" {...register("password")} name="password" className="h-[7vh] w-[70%] rounded-xl text-2xl mx-[2%] my-[2px]"/><br></br>
                <button className="border-4 border-orange-600 h-[10vh] w-[70%] mx-[2%] mt-[4%] text-4xl  rounded-4xl hover:bg-orange-600">Login</button>
-               <Link to="/signup-form">
+               <Link to="/signup">
                <button className="border-4 border-orange-600 h-[10vh] w-[70%] mx-[2%] mt-[2%] text-4xl  rounded-4xl hover:bg-orange-600">Signup</button>
                </Link>
             </div>
