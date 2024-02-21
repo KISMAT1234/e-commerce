@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      
       <CategoryMenu />
       <FoodItems />
       <Cart />  
