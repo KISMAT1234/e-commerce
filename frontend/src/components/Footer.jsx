@@ -46,8 +46,8 @@ function Footer(){
                         <h5>Return Policy</h5>
                         <h5>Terms Of Use</h5>
                         <h5>Security</h5>
-                        <h5>Privacy</h5>
-                        <h5>Press</h5>
+                        <h5>Internship</h5>
+                        <h5>Job</h5>
                     </div>
 
                     <div className="">
@@ -73,7 +73,7 @@ function Footer(){
                     <div className="">
                        <MdEmail className="ml-10 text-4xl mt-5"/>
                        <h1 className="md:text-2xl">Email Us At</h1>
-                       <h1 className="md:text-2xl">foodvalley@gmail.com</h1>
+                       <h1 className="md:text-2xl">kismat@gmail.com</h1>
                     </div>
                     <div className="">
                        <FaLocationDot className="ml-10 text-4xl mt-5"/>
