@@ -7,7 +7,6 @@ import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
   const [activeCart, setActiveCart] = useState(false);
-
   const cartItems = useSelector((state) => state.cart.cart);
   const totalQty = cartItems.reduce((totalQty, item) => totalQty + item.qty, 0);
   const totalPrice = cartItems.reduce(
@@ -47,7 +46,7 @@ const Cart = () => {
           })
         ) : (
           <h2 className="text-center text-xl font-bold text-gray-800">
-            Your cart is empty
+            Ops! your cart is empty
           </h2>
         )}
 
