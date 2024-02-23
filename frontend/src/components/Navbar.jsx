@@ -16,6 +16,7 @@ const Navbar = () => {
         <div className="my-2 text-2xl text-violet-800 justify-between">
           <Link to ="/"       className="hover:border-b-2 border-green-600 hover:text-slate-400 ">Home</Link>
           <Link to="/about" className="hover:border-b-2 border-green-600 hover:text-slate-400 ml-4">About</Link>
+          <Link to="/gallery" className="hover:border-b-2 border-green-600 hover:text-slate-400 ml-4">Gallery</Link>
           <Link to="/contact" className="hover:border-b-2 border-green-600 hover:text-slate-400 ml-4">Contact</Link>
         </div>
       </div>
