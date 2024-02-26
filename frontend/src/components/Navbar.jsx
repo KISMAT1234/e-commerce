@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { setSearch } from "../redux/slices/SearchSlice";
 import kismatlogo from "../assets/kismatlogo.png"
 import {Link} from "react-router-dom"
+import { FaFacebook,FaInstagram,FaTiktok } from "react-icons/fa";
 
 const Navbar = () => {
   const dispatch = useDispatch();
@@ -30,13 +31,20 @@ const Navbar = () => {
           onChange={(e) => dispatch(setSearch(e.target.value))}
           className="p-3 border border-gray-400 text-sm rounded-lg outline-none w-full lg:w-[25vw] h-[6vh]"
         /><br></br>
-        <div className="mt-2">
+        <div className="mt-2 flex justify-between">
+          <div>
           <Link to ="/login">
-              <button className="bg-green-600 rounded h-[6vh] w-[25%] md:ml-30 text-2xl font-bold">Login</button>
+              <button className="bg-green-600 rounded h-[6vh] md:ml-30 text-2xl font-bold">Login</button>
           </Link> 
           <Link to="/signup">
-            <button className="bg-green-600 rounded h-[6vh] w-[25%] ml-10 text-2xl font-bold">Signup</button>
+            <button className="bg-green-600 rounded h-[6vh]  ml-4 text-2xl font-bold">Signup</button>
           </Link>
+          </div>
+          <div className="flex ">
+              <FaFacebook className="text-4xl  ml-5"/>
+              <FaInstagram className="text-4xl ml-5" />
+              <FaTiktok    className="text-4xl ml-5" />
+          </div> 
         </div>
       </div>
     </nav>
