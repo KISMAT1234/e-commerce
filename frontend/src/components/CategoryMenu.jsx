@@ -3,12 +3,12 @@ import FoodData from "../data/FoodData";
 import { useDispatch, useSelector } from "react-redux";
 import { setCategory } from "../redux/slices/CategorySlice";
 // import Carousel from "./CarouselComponent";
-import leftImage from "../assets/left.jpg";
-import Chicken from "../assets/chicken.jpg";
-import Menu from "../assets/menu.jpg";
-import Pizza from "../assets/pizza.jpg";
-import Restaurant from "../assets/restaurant.jpg";
-import rightImage from "../assets/right.jpg";
+import leftImage from "../assets/slider/left.jpg";
+import Chicken from "../assets/slider/chicken.jpg";
+import Menu from "../assets/slider/menu.jpg";
+import Pizza from "../assets/slider/pizza.jpg";
+import Restaurant from "../assets/slider/restaurant.jpg";
+import rightImage from "../assets/slider/right.jpg";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { FaArrowCircleLeft } from "react-icons/fa";
 
