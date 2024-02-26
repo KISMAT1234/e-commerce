@@ -7,6 +7,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
+import Blog from "./pages/Blog";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/gallery" element={<Gallery/>}/>
+        <Route path="/blog" element={<Blog/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/signup" element={<Signup/>}/>
         <Route
