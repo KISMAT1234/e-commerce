@@ -7,7 +7,7 @@ const Gallery = () => {
     <>
        <Navbar/>
 
-        <div className="bg-red-400 ">
+        <div className=" ">
             <h1 className=" my-10 text-6xl font-bold text-center">GALLERY OF FOOD THAT WE OFFER</h1>
             <div className="flex flex-wrap mx-20">
                {
