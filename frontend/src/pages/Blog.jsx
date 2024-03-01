@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from "../components/Navbar";
 import Footer from  "../components/Footer";
 import salad from "../assets/blog/salad.jpg"
+import customer1 from "../assets/blog/customer1.jpg"
+import customer2 from "../assets/blog/customer2.jpg"
 
 
 const Blog = () => {
@@ -9,7 +11,7 @@ const Blog = () => {
    <>
         <Navbar/>
         <div>
-            <div className="sm:flex sm:justify-around mt-10">
+            <div className="md:flex sm:justify-around mt-10">
                <div>
                    <img src={salad} alt="Salad"/>
                </div>
@@ -20,7 +22,19 @@ const Blog = () => {
                </div>
              </div>
              <div className="justify-center my-10">
-               <h1 className="text-bold text-8xl text-center ">Best Food In The Town</h1>
+               <h1 className="text-bold text-8xl text-center ">Happy Customer</h1>
+             </div>
+
+             <div>
+                <div>
+                    <img src={customer1}/>
+                </div>
+                <div className="md:flex mt-10">
+                   <img src={customer2}/>
+                   <h1 className="text-4xl mx-10 mt-5 font-serif">We have served over more than 1 million customers till date. With good reviews and comments we are delighted to be a part of this family. 
+                    Customer satisfaction is our happiness and motivation towards our work. We are always ready to serve our customer as best as we can. 
+                   </h1>
+                </div>
              </div>
         </div>
     <Footer/>
