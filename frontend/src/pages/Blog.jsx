@@ -36,6 +36,10 @@ const Blog = () => {
                    </h1>
                 </div>
              </div>
+
+             <div className="mt-40">
+                 <h1 className="text-9xl font-bold text-center">GET YOUR FAVOURITE FOOD HERE </h1>
+             </div>
         </div>
     <Footer/>
    </>
