@@ -6,7 +6,7 @@ import chief from "../assets/about/chief.jpg"
 import waiter from "../assets/about/waiter.jpeg"
 import kitchen from "../assets/about/kitchen.jpeg"
 import reception from "../assets/about/reception.jpeg"
-// import from "../assets/about"
+import table from "../assets/about/table.jpeg"
 
 
 function About() {
@@ -50,7 +50,19 @@ function About() {
             <div>
                  <img src={reception} className="w-full"/>
             </div>
-           
+          </div>
+
+          <div className="mt-20 flex">
+            <div className="">
+
+              <img src={table} className="w-[900px]"/>
+            </div>
+            <div className="ml-10 w-[98%]">
+              <h1>This is the table I ate at when I was a kid. This table sat in our Miami kitchen for many years; it was the focal point of our nightly meals: 
+                meatloaf, lasagna, spaghetti and meatballs, steak, and baked chicken breasts. These are the only meals I remember my mother ever cooking. Each 
+                dinner was accompanied by a small bowl of iceberg lettuce, watery cucumbers, and plain, tasteless store-bought tomatoes; the salad was unseasoned</h1>
+            </div>
+
           </div>
 
           <Footer/>
