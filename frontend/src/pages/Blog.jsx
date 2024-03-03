@@ -40,6 +40,17 @@ const Blog = () => {
              <div className="mt-40">
                  <h1 className="text-9xl font-bold text-center">GET YOUR FAVOURITE FOOD HERE </h1>
              </div>
+
+             <div className="mt-40 pl-10">
+                <h1 className="text-4xl font-semibold mb-6">
+                  LIST OF DISCOUNT THAT OUR RESTAURANT OFFERS
+                </h1>
+                <h1 className="text-2xl my-5 font-serif">#  Saturday package (20% Discount in all items)</h1>
+                <h1 className="text-2xl my-5 font-serif"># Christmas package (10% off in pizza)</h1>
+                <h1 className="text-2xl my-5 font-serif"># New Year Package (Buy 1 pizza or burger get  one free pepsi can).</h1>
+                <h1 className="text-2xl my-5 font-serif"># Sunday package (Get $1 cashback  on every order)</h1>
+                <h1 className="text-2xl my-5 font-serif"># Family package (Get 50% off on family package deal )</h1>
+             </div>
         </div>
     <Footer/>
    </>
