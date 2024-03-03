@@ -7,6 +7,7 @@ import waiter from "../assets/about/waiter.jpeg"
 import kitchen from "../assets/about/kitchen.jpeg"
 import reception from "../assets/about/reception.jpeg"
 import table from "../assets/about/table.jpeg"
+import vibe from "../assets/about/vibe.jpeg"
 
 
 function About() {
@@ -63,6 +64,18 @@ function About() {
                 dinner was accompanied by a small bowl of iceberg lettuce, watery cucumbers, and plain, tasteless store-bought tomatoes; the salad was unseasoned</h1>
             </div>
 
+          </div>
+
+          <div className="mt-10 md:flex">
+            <div className="mx-20 w-[50%] md:mt-20">
+              <h1>The restaurant can give you a vibe which can match your lifestyle and give you a fantastic vibe.
+                The  restaurant is open for lunch from 12 pm to 3 pm. Dinner is served from 6 pm to 10 pm. In this time
+                you can get  reservation by calling us at +36  (0)777 777  777 or send an email to info@ourres.com.
+              </h1>
+            </div>
+            <div className="mt-10 mx-20">
+               <img src={vibe}/>
+            </div>
           </div>
 
           <Footer/>
