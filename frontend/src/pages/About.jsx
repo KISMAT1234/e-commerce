@@ -85,11 +85,6 @@ function About() {
                 <h1 className="mt-1 text-2xl">Serving food</h1>
                 <h1 className="mt-3">Customer satisfaction depends on serve also. So we have decided to serve in tradition way so that we can easily serve happily.</h1>
              </div>
-             {/* <div className="bg-green-500 h-[60vh] mt-5 w-[300px] px-4 py-4 ml-2 rounded-2xl">
-                <img src={serve} className=""/>
-                <h1 className="mt-1 text-2xl">Serving food</h1>
-                <h1 className="mt-3">Customer satisfaction depends on serve also. So we have decided to serve in tradition way so that we can easily serve happily.</h1>
-             </div>
              <div className="bg-green-500 h-[60vh] mt-5 w-[300px] px-4 py-4 ml-2 rounded-2xl">
                 <img src={serve} className=""/>
                 <h1 className="mt-1 text-2xl">Serving food</h1>
@@ -99,7 +94,12 @@ function About() {
                 <img src={serve} className=""/>
                 <h1 className="mt-1 text-2xl">Serving food</h1>
                 <h1 className="mt-3">Customer satisfaction depends on serve also. So we have decided to serve in tradition way so that we can easily serve happily.</h1>
-             </div> */}
+             </div>
+             <div className="bg-green-500 h-[60vh] mt-5 w-[300px] px-4 py-4 ml-2 rounded-2xl">
+                <img src={serve} className=""/>
+                <h1 className="mt-1 text-2xl">Serving food</h1>
+                <h1 className="mt-3">Customer satisfaction depends on serve also. So we have decided to serve in tradition way so that we can easily serve happily.</h1>
+             </div>
           </div>
 
           <Footer/>
