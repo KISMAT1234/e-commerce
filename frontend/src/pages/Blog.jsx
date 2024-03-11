@@ -50,6 +50,7 @@ const Blog = () => {
                 <h1 className="text-2xl my-5 font-serif"># New Year Package (Buy 1 pizza or burger get  one free pepsi can).</h1>
                 <h1 className="text-2xl my-5 font-serif"># Sunday package (Get $1 cashback  on every order)</h1>
                 <h1 className="text-2xl my-5 font-serif"># Family package (Get 50% off on family package deal )</h1>
+                <h1 className="text-2xl my-5 font-serif"># Holiday package (Get 80% off on any drinks )</h1>
              </div>
         </div>
     <Footer/>
