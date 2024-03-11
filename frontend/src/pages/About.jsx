@@ -102,6 +102,10 @@ function About() {
              </div>
           </div>
 
+          <div>
+            <h1 className="my-20 md:mx-10 text-center text-8xl font-extrabold">WE DO CARE FOR CUSTOMER</h1>
+          </div>
+
           <Footer/>
           </div>
 
